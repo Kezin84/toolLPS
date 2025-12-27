@@ -1235,7 +1235,8 @@ const compareByContract = computed(() => {
   })
 })
 
-import * as XLSX from 'xlsx'
+import * as XLSX from 'xlsx-js-style'
+
 function toRoman(num: number) {
   const map: [number, string][] = [
     [1000, 'M'], [900, 'CM'], [500, 'D'], [400, 'CD'],
